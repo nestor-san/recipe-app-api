@@ -1,7 +1,7 @@
 FROM python:3.7-alpine
 MAINTAINER Nestor-San
 
-ENV pYTHONUNBUFFERED 1
+ENV PYTHONUNBUFFERED 1
 
 COPY ./requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
